@@ -1,0 +1,49 @@
+.card {
+    /* Existing styles remain */
+    transition: transform 0.3s ease-in-out, background-color 0.2s; /* Adjust timing and easing */
+  }
+  
+  .card:hover {
+    transform: scale(1.03); /* Reduce scale for a subtler effect */
+    background-color: #e6f7fb; /* Slightly lighter blue on hover */
+  }
+  .card-body {
+    /* Existing styles remain */
+    display: flex; /* Allow wrapping */
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Maintain text alignment */
+    overflow: hidden; /* Hide overflow */
+    height: auto; /* Allow dynamic height based on content */
+    padding: 10px 15px;
+    transition: height 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card-title {
+    /* Existing styles remain */
+    font-size: 1.2em; /* Slightly decrease title size */
+    white-space: nowrap; /* Prevent wrapping in title */
+    overflow: hidden; /* Hide overflow in title */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+  }
+  
+  .card-text {
+    /* Existing styles remain */
+    font-size: 1em; /* Existing font size */
+    color: #389eb7;
+    margin-top: 10px; /* Adjust spacing slightly */
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+    white-space: normal; /* Allow wrapping in description */
+    line-height: 1.2; /* Slightly increase line height for better spacing */
+  }
+  
+  .card:hover .card {
+    transform: scale(1.0);  /* Reset scale to prevent nested expansion */
+  }
+  .card:hover .card-text {
+    opacity: 1;
+    max-height: max-content;
+  }
+  

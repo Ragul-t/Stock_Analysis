@@ -1,0 +1,37 @@
+.portfolio-details-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.portfolio-details-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.portfolio-details-container p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.portfolio-details-container a,
+.portfolio-details-container button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfolio-details-container a:hover,
+.portfolio-details-container button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,32 @@
+/* custom-navbar.css */
+.custom-navbar {
+    background-color: #fefae0; /* Light gray background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+  
+    /* Navbar link colors */
+    .navbar-brand {
+      color: #2f5b95; /* Darker blue */
+    }
+  
+    .nav-link {
+      color: #2f5b95; /* Darker blue */
+    }
+  
+    /* Center navbar content */
+    .navbar-nav {
+      justify-content: center; /* Center links horizontally */
+    }
+  
+    /* Highlight active link */
+    .nav-link.active {
+      font-weight: bold;
+      color: #389eb7; /* Lighter blue for active link */
+    }
+  
+    /* Add a border to the bottom */
+    .border-bottom {
+      border-bottom: 1px solid #e0e0e0; /* Light gray border */
+    }
+  }
+  

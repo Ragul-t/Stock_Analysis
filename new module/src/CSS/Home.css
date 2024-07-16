@@ -1,0 +1,13 @@
+.home-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8fb; /* Light blue background */
+  }
+  
+.row {
+    /* Removed custom styles as Bootstrap grid handles layout */
+}
+.col
+{
+    width: 280px;
+}  

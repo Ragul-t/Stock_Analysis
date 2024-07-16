@@ -1,0 +1,47 @@
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #1a1a2e;
+}
+
+.card2 {
+    background-color: #16213e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-wide {
+    background-color: #16213e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    grid-column: span 2;
+    /* Make the card span across both columns */
+}
+
+.card2 h2,
+.card-wide h2 {
+    margin: 0 0 10px 0;
+}
+
+.card2 p,
+.card-wide p {
+    margin: 5px 0;
+}
+
+.card2 span,
+.card-wide span {
+    color: #ccc;
+}
+
+.chart {
+    background: #0f3460;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

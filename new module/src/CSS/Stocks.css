@@ -1,0 +1,89 @@
+body {
+    background-color: #0f3460;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #1a1a2e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* Set a maximum width for responsiveness */
+  }
+  
+  h1,
+  h2 {
+    color: #73b2fe;
+    margin-bottom: 10px; /* Added spacing for headings */
+  }
+  
+  .input-container {
+    display: flex; /* Changed to flex for better input/button layout */
+    align-items: center; /* Align elements vertically */
+    margin-bottom: 15px; /* Added spacing after input section */
+  }
+  
+  .ticker-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    flex: 1; /* Allow input to take available space */
+  }
+  
+  .button-container {
+    display: flex; /* Maintained flex for button alignment */
+    justify-content: space-between; /* Distribute buttons horizontally */
+    width: 100%; /* Allow buttons to fill container width */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #16213e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #73b2fe;
+  }
+  
+  .data-section {
+    margin-top: 30px; /* Reduced margin for better content flow */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .data-table th {
+    background-color: #16213e;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #1a1a2e;
+  }
+  
+  .data-table tr:hover {
+    background-color: #16213e
+  }  
